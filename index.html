@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="root"></p>
+
+    <input type="number" id="num1" class="num" />
+    <input type="number" id="num2" class="num"/>
+    
+    <button id="btn">Click me</button>
+
+
+    <script>
+
+
+
+
+
+
+
+
+
+// let sum=0;
+
+// let m = [[1,2,3,4],[4,5,6,5],[7,8,9,4],[6,4,5,9]];
+
+// console.log(m[0][1]);
+
+// for(let i = 0 ; i< m.length; i++){
+// sum += m[i][i];
+// }
+// console.log(sum);
+
+
+
+        
+    //  let arr= [2,5,7,6,4,4,7];
+
+    //  let sum=0;
+    // for(var i=0; i<arr.length; i++){
+    //     sum += arr[i];
+    // }
+// var sum1=parseInt(sum);
+    // console.log(sum);
+
+
+    //  let sum = 0;
+    //  arr.forEach(element => {
+    //     sum += element;
+    //  });
+    // console.log(sum);
+
+ 
+
+
+
+
+    // var divis = document.querySelectorAll(".num");
+    // console.log(divis);
+    // for(let i = 0; i<divis.length; i++){
+    //     divis[i].addEventListener('change', () => {
+    //         let Fnumber= document.getElementById('num1').value;
+    //         console.log(Fnumber);
+    //         let Snumber= document.querySelector("#num2").value;
+            
+    //         if(Fnumber%Snumber==0){
+    //             document.querySelectorAll("#root")[0].innerText= "number is Divisible";
+    //         }else{
+    //             document.querySelectorAll("#root")[0].innerText= "number is not Divisible";
+    //         }
+    //     });
+    // }
+        // var divis = document.querySelector(".num2");
+        // divis.addEventListener('change', () => {
+        //     let Fnumber= document.getElementById('num1').value;
+        //     console.log(Fnumber);
+        //     let Snumber= document.querySelector("#num2").value;
+            
+        //     if(Fnumber%Snumber==0){
+        //         document.querySelectorAll("#root")[0].innerText= "number is Divisible";
+        //     }else{
+        //         document.querySelectorAll("#root")[0].innerText= "number is not Divisible";
+        //     }
+        // });
+        
+
+
+
+
+
+// for(let i = 1; i < 10 ; i++)
+// {
+//     for(let j=1; j<=i ; j++)
+//     {
+//         console.log('*');
+//     }
+//     console.log('\n');
+// }
+
+// let elm = document.getElementById("root");
+
+// for(let i = 1; i <= 10 ; i++)
+// {
+//     for(let j=1; j<=i ; j++)
+//     {
+//         elm.innerHTML += "*" ; 
+//     }
+//     for(let k=1; k <= (10-i); k++){
+//         elm.innerHTML += "1" ;
+//     }
+//     elm.innerHTML += "<br\>";
+// }
+
+
+let elm = document.getElementById("root");
+// elm.innerHTML="a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b";
+
+for(let i = 1; i <= 10 ; i++)
+{
+    for(let j=1; j<=i ; j++)
+    {
+        for(let k=1; k<((20)/2); k++){
+            elm.innerHTML += "*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dhghdg" ;
+        }
+        elm.innerHTML += "*" ; 
+    }
+    elm.innerHTML += "<br\>";
+    }
+
+
+
+
+
+        // let strFunc = () => {
+        //     for (let i = 0; i < 10; i++)
+
+        //     document.getElementById("root").innerHTML += "*" ;
+            
+        // }
+
+        // strFunc();
+        
+
+
+
+
+
+
+// let revFunc=()=>{
+// let str = "abcde";
+// var revstr= str.split('').reverse().join('');
+// document.querySelectorAll("p")[0].innerHTML=revstr;
+// }
+
+// console.log(str);
+// console.log(revstr);
+
+// document.querySelectorAll("p")[0].innerHTML=revstr;
+
+        // document.getElementById(btn).addEventListener(onclick, ()=>{console.log("done");})
+
+        // let Func=()=>{
+        //     document.getElementsByClassName('root') = "hello"
+        // }
+
+        // document.querySelectorAll('btn')= "Hello";
+
+        // document.getElementsByClassName("root")[0].style.color = "blue
+
+//         const nodeList= document.querySelectorAll("p")[0];
+// nodeList.style.color = "blue"; 
+
+// let colorCg = () => {
+//     const nodeList= document.querySelectorAll("p.root")[0];
+// nodeList.style.color = "blue"; 
+// }
+
+    </script>
+    <!-- <script src="./script.js"></script> -->
+</body>
+
+</html>
